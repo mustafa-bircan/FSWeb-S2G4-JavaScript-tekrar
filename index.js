@@ -151,7 +151,7 @@ console.log(siralisayilar);
 // 3f çözümü
 
 let sayiTekrar = {};
-sayilar.forEach(sayi => {
+sayilar.forEach(sayi => {  // Eğer sayi nesnede yoksa, 1 ile başla, varsa mevcut değeri bir artır
   sayiTekrar[sayi] = (sayiTekrar[sayi] || 0) + 1;
 });
 
