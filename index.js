@@ -163,6 +163,8 @@ for (let sayi in sayiTekrar) {
 
 console.log(tekraredensayilar); 
 
+//umarım doğru çalışır...
+
 /*  Bu satırın aşağısındaki kodları lütfen değiştirmeyin  */
 
 function sa() {
